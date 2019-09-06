@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="6" total="13" passed="7">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="30509" started-at="2019-09-06T06:09:13 EET" finished-at="2019-09-06T06:09:43 EET">
+    <groups>
+    </groups>
+    <test name="All" duration-ms="30509" started-at="2019-09-06T06:09:13 EET" finished-at="2019-09-06T06:09:43 EET">
+      <class name="Test.SearchTest">
+        <test-method status="PASS" signature="searchTest()[pri:1, instance:Test.SearchTest@cd2dae5]" name="searchTest" duration-ms="2534" started-at="2019-09-06T06:09:40 EET" finished-at="2019-09-06T06:09:42 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchTest -->
+      </class> <!-- Test.SearchTest -->
+      <class name="Test.HomeTest">
+        <test-method status="PASS" signature="testHomeTotalItemCount()[pri:1, instance:Test.HomeTest@3d99d22e]" name="testHomeTotalItemCount" duration-ms="2007" started-at="2019-09-06T06:09:28 EET" finished-at="2019-09-06T06:09:30 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHomeTotalItemCount -->
+        <test-method status="PASS" signature="testHomeBestSellerItemCount()[pri:2, instance:Test.HomeTest@3d99d22e]" name="testHomeBestSellerItemCount" duration-ms="89" started-at="2019-09-06T06:09:30 EET" finished-at="2019-09-06T06:09:30 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHomeBestSellerItemCount -->
+      </class> <!-- Test.HomeTest -->
+      <class name="Test.ContactUsTest">
+        <test-method status="PASS" signature="Setup()[pri:0, instance:Test.ContactUsTest@32709393]" name="Setup" is-config="true" duration-ms="11477" started-at="2019-09-06T06:09:13 EET" finished-at="2019-09-06T06:09:24 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method status="PASS" signature="TestContactUs()[pri:1, instance:Test.ContactUsTest@32709393]" name="TestContactUs" duration-ms="4132" started-at="2019-09-06T06:09:24 EET" finished-at="2019-09-06T06:09:28 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestContactUs -->
+        <test-method status="PASS" signature="closeBroser()[pri:0, instance:Test.ContactUsTest@32709393]" name="closeBroser" is-config="true" duration-ms="714" started-at="2019-09-06T06:09:42 EET" finished-at="2019-09-06T06:09:43 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBroser -->
+      </class> <!-- Test.ContactUsTest -->
+      <class name="Test.LoginTest">
+        <test-method status="PASS" signature="checkEmptyPassword()[pri:1, instance:Test.LoginTest@49fc609f]" name="checkEmptyPassword" duration-ms="3073" started-at="2019-09-06T06:09:30 EET" finished-at="2019-09-06T06:09:34 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkEmptyPassword -->
+        <test-method status="PASS" signature="checkWrongPassword()[pri:2, instance:Test.LoginTest@49fc609f]" name="checkWrongPassword" duration-ms="2675" started-at="2019-09-06T06:09:34 EET" finished-at="2019-09-06T06:09:36 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkWrongPassword -->
+        <test-method status="PASS" signature="checkExistingEmail()[pri:3, instance:Test.LoginTest@49fc609f]" name="checkExistingEmail" duration-ms="3749" started-at="2019-09-06T06:09:36 EET" finished-at="2019-09-06T06:09:40 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkExistingEmail -->
+      </class> <!-- Test.LoginTest -->
+    </test> <!-- All -->
+  </suite> <!-- Suite -->
+</testng-results>
